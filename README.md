@@ -126,10 +126,93 @@
     </footer>
 
 </body>
-</html>WELCOME TO THE OFFICIAL WORLD OF PRINCESS LAVENE. 👑
+</html .email-signup{
+  text-align:center;
+  max-width:700px;
+  margin:22px auto;
+}
 
-My official music website is officially live.
+.email-signup p{
+  font-size:16px;
+  margin-bottom:18px;
+}
 
-Releases. Visuals. Music. News. What’s next.
+.email-form{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
 
-This is only the beginning.
+.email-form input{
+  flex:1;
+  min-width:220px;
+  padding:14px 18px;
+  border:1px solid rgba(255,255,255,.38);
+  border-radius:999px;
+  background:rgba(255,255,255,.10);
+  color:var(--ink);
+  font-size:15px;
+  outline:none;
+}
+
+.email-form input::placeholder{
+  color:rgba(247,242,234,.70);
+}
+
+.email-form button{
+  padding:14px 22px;
+  border:1px solid rgba(255,255,255,.38);
+  border-radius:999px;
+  background:rgba(245,238,226,.20);
+  color:var(--ink);
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:1px;
+  cursor:pointer;
+}
+.email-signup{
+  text-align:center;
+  max-width:700px;
+  margin:22px auto;
+}
+
+.email-signup p{
+  font-size:16px;
+  margin-bottom:18px;
+}
+
+.email-form{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.email-form input{
+  flex:1;
+  min-width:220px;
+  padding:14px 18px;
+  border:1px solid rgba(255,255,255,.38);
+  border-radius:999px;
+  background:rgba(255,255,255,.10);
+  color:var(--ink);
+  font-size:15px;
+  outline:none;
+}
+
+.email-form input::placeholder{
+  color:rgba(247,242,234,.70);
+}
+
+.email-form button{
+  padding:14px 22px;
+  border:1px solid rgba(255,255,255,.38);
+  border-radius:999px;
+  background:rgba(245,238,226,.20);
+  color:var(--ink);
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:1px;
+  cursor:pointer;
+}
