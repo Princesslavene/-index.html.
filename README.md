@@ -126,4 +126,10 @@
     </footer>
 
 </body>
-</html>
+</html>WELCOME TO THE OFFICIAL WORLD OF PRINCESS LAVENE. 👑
+
+My official music website is officially live.
+
+Releases. Visuals. Music. News. What’s next.
+
+This is only the beginning.
