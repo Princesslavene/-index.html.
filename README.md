@@ -106,7 +106,9 @@ main{
   font-size:26px;
 }
 
-.lead{font-size:17px}
+.lead{
+  font-size:17px;
+}
 
 .buttons{
   display:flex;
@@ -156,23 +158,25 @@ main{
   border-radius:18px;
 }
 
-a{color:#e2c27d}
-
-/* Clean Google Form Container Styling */
-.form-container {
-  width: 100%;
-  max-width: 600px;
-  margin: 20px auto 0;
-  border-radius: 16px;
-  overflow: hidden;
-  background: #1e1b18;
-  border: 1px solid var(--line);
+a{
+  color:#e2c27d;
 }
 
-.form-container iframe {
-  width: 100%;
-  height: 380px;
-  border: none;
+.form-container{
+  width:100%;
+  max-width:700px;
+  margin:20px auto 0;
+  border-radius:16px;
+  overflow:hidden;
+  background:#1e1b18;
+  border:1px solid var(--line);
+}
+
+.form-container iframe{
+  width:100%;
+  height:650px;
+  border:none;
+  display:block;
 }
 
 footer{
@@ -189,9 +193,21 @@ footer{
 }
 
 @media(max-width:600px){
-  .section{padding:18px}
-  .brand{font-size:22px}
-  nav{gap:4px}
+  .section{
+    padding:18px;
+  }
+
+  .brand{
+    font-size:22px;
+  }
+
+  nav{
+    gap:4px;
+  }
+
+  .form-container iframe{
+    height:750px;
+  }
 }
 </style>
 </head>
@@ -425,11 +441,20 @@ footer{
 
   <h2>📩 JOIN THE EMAIL LIST / BOOKINGS</h2>
 
-  <p>For bookings, business inquiries, and exclusive updates, drop your email below:</p>
+  <p>
+    For bookings, business inquiries, and exclusive updates,
+    drop your email below:
+  </p>
 
-  <!-- WORKING GOOGLE FORM EMBED CONFIGURED FOR PRINCESS LAVENE -->
   <div class="form-container">
-    <iframe src="https://google.com" allowfullscreen>Loading…</iframe>
+
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfNIUX6Kpsxds8PL4KOdzKDtmGn7FlK-h-ii19hg019YB63Cg/viewform?embedded=true"
+      title="Princess Lavene Email List Google Form"
+      loading="lazy">
+      Loading…
+    </iframe>
+
   </div>
 
 </section>
@@ -442,4 +467,3 @@ footer{
 
 </body>
 </html>
-
