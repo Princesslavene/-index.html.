@@ -158,26 +158,21 @@ main{
 
 a{color:#e2c27d}
 
-.email-box{
-  display:flex;
-  gap:12px;
-  flex-wrap:wrap;
-  margin-top:18px;
+/* Clean Google Form Container Styling */
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #1e1b18;
+  border: 1px solid var(--line);
 }
 
-.email-box input{
-  flex:1;
-  min-width:220px;
-  padding:14px 16px;
-  border-radius:999px;
-  border:1px solid rgba(255,255,255,.38);
-  background:rgba(245,238,226,.14);
-  color:white;
-  font-size:14px;
-}
-
-.email-box input::placeholder{
-  color:rgba(255,255,255,.75);
+.form-container iframe {
+  width: 100%;
+  height: 380px;
+  border: none;
 }
 
 footer{
@@ -248,16 +243,16 @@ footer{
 
   <p>
     <strong>Pre-Save Now Here:</strong>
-    <a href="https://shorturl.at/ZhLmb"
+    <a href="https://shorturl.at"
        target="_blank"
        rel="noopener">
-       https://shorturl.at/ZhLmb
+       https://shorturl.at
     </a>
   </p>
 
   <div class="buttons">
     <a class="btn"
-       href="https://shorturl.at/ZhLmb"
+       href="https://shorturl.at"
        target="_blank"
        rel="noopener">
        PRE-SAVE MUSIC
@@ -278,9 +273,6 @@ footer{
 <section class="section">
 
   <h2>🎨 8 NUMBERS — VISUALS</h2>
-
-  <!-- Replace the image URL below with your uploaded album image
-       if your GitHub repository contains the image file. -->
 
   <img
     class="album"
@@ -373,7 +365,7 @@ footer{
   </div>
 
   <p>
-    <a href="https://open.spotify.com/artist/23ReJJ4hfu2EWL4nFbeifW"
+    <a href="https://spotify.com"
        target="_blank"
        rel="noopener">
        🟢 Spotify — Follow Princess Lavene
@@ -381,7 +373,7 @@ footer{
   </p>
 
   <p>
-    <a href="https://music.apple.com/ng/album/bow-down-single/1734580129"
+    <a href="https://apple.com"
        target="_blank"
        rel="noopener">
        🍎 Apple Music — Listen on Apple Music
@@ -420,7 +412,7 @@ footer{
   </div>
 
   <p>
-    <a href="https://open.spotify.com/artist/23ReJJ4hfu2EWL4nFbeifW"
+    <a href="https://spotify.com"
        target="_blank"
        rel="noopener">
        STREAM & FOLLOW PRINCESS LAVENE
@@ -429,95 +421,25 @@ footer{
 
 </section>
 
-<section class="section">
-
-  <h2>📸 OFFICIAL PHOTOS</h2>
-
-  <p>
-    Follow Princess Lavene across the official social platforms
-    for new visuals, music, fashion, and updates.
-  </p>
-
-</section>
-
 <section class="section" id="contact">
 
-  <h2>📩 CONTACT / BOOKINGS</h2>
+  <h2>📩 JOIN THE EMAIL LIST / BOOKINGS</h2>
 
-  <p>
-    For bookings, business inquiries, collaborations,
-    media, and opportunities:
-  </p>
+  <p>For bookings, business inquiries, and exclusive updates, drop your email below:</p>
 
-  <p>
-    <strong>Email:</strong>
-    <a href="mailto:Girlbossgirlyshit@gmail.com">
-      Girlbossgirlyshit@gmail.com
-    </a>
-  </p>
-
-  <div class="buttons">
-
-    <a class="btn"
-       href="https://www.tiktok.com/@princesslavenesreact"
-       target="_blank"
-       rel="noopener">
-       TIKTOK
-    </a>
-
-    <a class="btn"
-       href="https://x.com/princessLReacts"
-       target="_blank"
-       rel="noopener">
-       X
-    </a>
-
+  <!-- WORKING GOOGLE FORM EMBED CONFIGURED FOR PRINCESS LAVENE -->
+  <div class="form-container">
+    <iframe src="https://google.com" allowfullscreen>Loading…</iframe>
   </div>
-
-</section>
-
-<!-- EMAIL SIGNUP -->
-
-<section class="section" id="email-list">
-
-  <h2>👑 JOIN THE PRINCESS LAVENE LIST</h2>
-
-  <p class="lead">
-    Get exclusive music updates, release announcements,
-    visuals, and first access to what's next.
-  </p>
-
-  <form
-    action="https://formspree.io/f/YOUR_FORM_ID"
-    method="POST"
-    class="email-box"
-  >
-
-    <input
-      type="email"
-      name="email"
-      placeholder="Enter your email address"
-      required
-    >
-
-    <button class="btn" type="submit">
-      JOIN THE LIST
-    </button>
-
-  </form>
-
-  <p class="small">
-    By signing up, you agree to receive emails from
-    Princess Lavene. You can unsubscribe anytime.
-  </p>
 
 </section>
 
 </main>
 
 <footer>
-  © 2026 PRINCESS LAVENE. ALL RIGHTS RESERVED.
+  <p>© 2026 PRINCESS LAVENE. ALL RIGHTS RESERVED.</p>
 </footer>
 
 </body>
 </html>
+
