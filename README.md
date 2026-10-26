@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Princess Lavene | Official Website</title>
-
+https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6512092--56276293-CAAC-4D10-B1B024023AA68F01--0--4334172--IMG2129.png?fm=jpg&q=75&w=800&s=e34078d4eddd83ec524fe822623c4fb2
 <style>
 :root{
   --ink:#f7f2ea;
@@ -43,6 +43,7 @@ header{
   font-size:28px;
   margin:0;
 }
+https://open.spotify.com/artist/23ReJJ4hfu2EWL4nFbeifW?si=KR28iC50RvmiJPzJzzX9dg&utm_source=copy-link
 
 .tag{
   margin:4px 0 0;
