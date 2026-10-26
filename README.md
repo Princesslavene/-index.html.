@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Princess Lavene | Official Website</title>
-https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6512092--56276293-CAAC-4D10-B1B024023AA68F01--0--4334172--IMG2129.png?fm=jpg&q=75&w=800&s=e34078d4eddd83ec524fe822623c4fb2
+
 <style>
 :root{
   --ink:#f7f2ea;
@@ -43,7 +43,6 @@ header{
   font-size:28px;
   margin:0;
 }
-https://open.spotify.com/artist/23ReJJ4hfu2EWL4nFbeifW?si=KR28iC50RvmiJPzJzzX9dg&utm_source=copy-link
 
 .tag{
   margin:4px 0 0;
@@ -152,32 +151,65 @@ main{
 
 .album{
   width:100%;
-  max-width:750px;
+  max-width:500px;
   height:auto;
   display:block;
   margin:20px auto;
   border-radius:18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
 }
 
 a{
   color:#e2c27d;
 }
 
-.form-container{
-  width:100%;
+.email-box{
   max-width:700px;
   margin:20px auto 0;
-  border-radius:16px;
-  overflow:hidden;
-  background:#1e1b18;
+  padding:24px;
+  border-radius:18px;
+  background:rgba(245,238,226,.10);
   border:1px solid var(--line);
+  text-align:center;
 }
 
-.form-container iframe{
-  width:100%;
-  height:650px;
+.email-form-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.email-box input{
+  flex:1;
+  min-width:220px;
+  padding:14px 16px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.38);
+  background:rgba(245,238,226,.14);
+  color:var(--ink);
+  font-size:14px;
+  outline:none;
+}
+
+.email-box input::placeholder{
+  color:rgba(247,242,234,.72);
+}
+
+.email-box button{
+  font-family:inherit;
+  padding:14px 28px;
+  border-radius:999px;
   border:none;
-  display:block;
+  background:var(--gold);
+  color:#151515;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.email-box button:hover {
+  background:#dcb46a;
 }
 
 footer{
@@ -186,11 +218,6 @@ footer{
   border-top:1px solid var(--line);
   font-size:12px;
   letter-spacing:2px;
-}
-
-.small{
-  font-size:13px;
-  opacity:.8;
 }
 
 @media(max-width:600px){
@@ -206,8 +233,12 @@ footer{
     gap:4px;
   }
 
-  .form-container iframe{
-    height:750px;
+  .email-box{
+    padding:18px;
+  }
+  
+  .email-form-group {
+    flex-direction: column;
   }
 }
 </style>
@@ -227,9 +258,9 @@ footer{
   </nav>
 </header>
 
-<main id="home">
+<main>
 
-<section class="hero">
+<section class="hero" id="home">
   <h1>PRINCESS LAVENE</h1>
   <p>RAPPER • TREND SETTER • ARTIST</p>
   <p>BIG DREAMS • REAL MOVES • GLOBAL VISION</p>
@@ -237,11 +268,9 @@ footer{
 
 <section class="section">
   <h2>🏠 HEADQUARTERS</h2>
-
   <p class="lead">
     <strong>👑 PRINCESS LAVENE // OFFICIAL WEBSITE</strong>
   </p>
-
   <p>
     Welcome to the official Princess Lavene headquarters.
     Pre-save music, explore the discography, follow the official
@@ -250,74 +279,62 @@ footer{
 </section>
 
 <section class="section" id="music">
-
   <h2>🚨 PRE-ORDER NEXT ALBUM: "8 NUMBERS"</h2>
-
   <p class="lead">
     The Highly Talked About 8-Track Project From Princess Lavene
     📅 <strong>DROPPING WORLDWIDE: NOVEMBER 1, 2026</strong> 🎵
   </p>
-
   <p>
     <strong>Pre-Save Now Here:</strong>
-    <a href="https://shorturl.at"
-       target="_blank"
-       rel="noopener">
-       https://shorturl.at
+    <a
+      href="https://distrokid.com"
+      target="_blank"
+      rel="noopener">
+      8 NUMBERS PRE-SAVE
     </a>
   </p>
 
   <div class="buttons">
-    <a class="btn"
-       href="https://shorturl.at"
-       target="_blank"
-       rel="noopener">
-       PRE-SAVE MUSIC
+    <a
+      class="btn"
+      href="https://distrokid.com"
+      target="_blank"
+      rel="noopener">
+      PRE-SAVE MUSIC
     </a>
-
     <a class="btn" href="#contact">
       PRE-ORDER VINYL
     </a>
   </div>
-
   <p>
     Make sure the album drops straight into your library on release day.
-    Pre-save on the Princess Lavene Spotify Artist Page.
+    Pre-save 8 Numbers now.
   </p>
-
 </section>
 
 <section class="section">
-
   <h2>🎨 8 NUMBERS — VISUALS</h2>
-
+  <!-- ACCURATE LOCAL IMAGE SOURCE EMBED -->
   <img
     class="album"
-    src="album_current.jpg"
+    src="album_cover.png"
     alt="Princess Lavene 8 Numbers album artwork"
   >
-
 </section>
 
 <section class="section">
-
   <h2>💿 PHYSICAL RELEASE</h2>
-
   <p>
-    Be the first to own the physical history of
-    <strong>8 NUMBERS</strong>.
+    Be the first to own the physical history of <strong>8 NUMBERS</strong>.
     Vinyl is coming soon on launch day, and CDs will be available
     on launch day — <strong>November 1, 2026.</strong>
   </p>
 
   <div class="grid">
-
     <div class="card">
       <h3>🎨 Limited Edition Vinyl</h3>
       <p>
-        12" heavyweight gatefold vinyl.
-        Includes exclusive colored edition pressing and
-        printed lyric booklet.
+        12" heavyweight gatefold vinyl. Includes exclusive colored edition pressing and printed lyric booklet.
         <strong>COMING SOON ON LAUNCH DAY.</strong>
       </p>
       <a href="#contact">VINYL DETAILS</a>
@@ -327,9 +344,7 @@ footer{
       <h3>💿 Compact Disc (CD)</h3>
       <p>
         Jewel case edition with full-color insert artwork.
-        <strong>
-          AVAILABLE ON LAUNCH DAY — NOVEMBER 1, 2026.
-        </strong>
+        <strong>AVAILABLE ON LAUNCH DAY — NOVEMBER 1, 2026.</strong>
       </p>
       <a href="#contact">CD DETAILS</a>
     </div>
@@ -337,133 +352,88 @@ footer{
     <div class="card">
       <h3>👕 Official Launch Apparel</h3>
       <p>
-        "8 Numbers" limited pre-order graphic streetwear
-        tees and hoodies. Coming Soon.
+        "8 Numbers" limited pre-order graphic streetwear tees and hoodies. Coming Soon.
       </p>
       <a href="#contact">PRE-ORDER MERCH</a>
     </div>
-
   </div>
-
 </section>
 
 <section class="section" id="discography">
-
   <h2>💿 THE DISCOGRAPHY</h2>
-
   <p>
-    Stream Princess Lavene's official releases while you wait
-    for the new project to land.
+    Stream Princess Lavene's official releases while you wait for the new project to land.
   </p>
 
   <div class="grid">
-
     <div class="card">
       <h3>🌟 BILLION DOLLAR (Album)</h3>
-      <p>
-        Fan Favorite — All Eyes ON Me.
-        Stream on Spotify 🔥
-      </p>
+      <p>Fan Favorite — All Eyes ON Me. Stream on Spotify 🔥</p>
     </div>
-
     <div class="card">
       <h3>GODLY (Album)</h3>
       <p>Stream on Spotify ✨</p>
     </div>
-
     <div class="card">
       <h3>REBORN (Album Project)</h3>
-      <p>
-        Featuring hits like Remember, Banger,
-        My Time, and Hop In.
-      </p>
+      <p>Featuring hits like Remember, Banger, My Time, and Hop In.</p>
     </div>
-
   </div>
 
   <p>
-    <a href="https://spotify.com"
-       target="_blank"
-       rel="noopener">
-       🟢 Spotify — Follow Princess Lavene
-    </a>
+    <a href="https://open.spotify.com/artist/23ReJJ4hfu2EWL4nFbeifW" target="_blank" rel="noopener">🟢 Spotify — Follow Princess Lavene</a>
   </p>
-
   <p>
-    <a href="https://apple.com"
-       target="_blank"
-       rel="noopener">
-       🍎 Apple Music — Listen on Apple Music
-    </a>
+    <a href="https://music.apple.com/gh/album/planet-her/1754880909" target="_blank" rel="noopener">🍎 Apple Music — Listen on Apple Music</a>
   </p>
-
 </section>
 
 <section class="section">
-
   <h2>🎵 HIT SINGLES</h2>
-
   <div class="grid">
-
     <div class="card">
       <h3>❄️ Ice No Kingdom</h3>
       <p>Ice No Kingdom (Extended Remix)</p>
     </div>
-
     <div class="card">
       <h3>🌎 WORLD STAR ONLY ME</h3>
     </div>
-
     <div class="card">
       <h3>🎃 Spooky</h3>
     </div>
-
     <div class="card">
       <h3>🍀 LUCKY CLOVER</h3>
     </div>
-
     <div class="card">
       <h3>👑 Bow Down</h3>
     </div>
-
   </div>
-
   <p>
-    <a href="https://spotify.com"
-       target="_blank"
-       rel="noopener">
-       STREAM & FOLLOW PRINCESS LAVENE
-    </a>
+    <a href="https://open.spotify.com/artist/23ReJJ4hfu2EWL4nFbeifW" target="_blank" rel="noopener">STREAM & FOLLOW PRINCESS LAVENE</a>
   </p>
-
+  <p>
+    <a href="https://www.youtube.com/channel/UCqYH2-0BKaO-v3X1J483YUA" target="_blank" rel="noopener">📺 YouTube — Official Channel</a>
+  </p>
 </section>
 
 <section class="section" id="contact">
-
-  <h2>📩 JOIN THE EMAIL LIST / BOOKINGS</h2>
-
-  <p>
-    For bookings, business inquiries, and exclusive updates,
-    drop your email below:
+  <h2>👑 JOIN THE PRINCESS LAVENE LIST</h2>
+  <p class="lead">
+    Get exclusive music announcements, new releases, visuals, special updates, and more.
   </p>
-
-  <div class="form-container">
-
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSfNIUX6Kpsxds8PL4KOdzKDtmGn7FlK-h-ii19hg019YB63Cg/viewform?embedded=true"
-      title="Princess Lavene Email List Google Form"
-      loading="lazy">
-      Loading…
-    </iframe>
-
+  <div class="email-box">
+    <p>Subscribe to the VIP Fan Mailing List</p>
+    <div class="email-form-group">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit">SUBSCRIBE</button>
+    </div>
   </div>
-
 </section>
 
 </main>
 
 <footer>
-  <p>© 2026 PRINCESS LAVENE. ALL RIGHTS RESERVED.</p>
+  <p>&copy; 2026 PRINCESS LAVENE. ALL RIGHTS RESERVED.</p>
 </footer>
 
 </body>
